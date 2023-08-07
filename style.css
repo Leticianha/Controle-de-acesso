@@ -1,0 +1,78 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* FONTE */
+@font-face {
+    font-family: 'poppins';
+    src: url(Poppins-Regular.ttf);
+}
+
+/* CABECALHO*/
+.cabecalho {
+    display: flex;
+    background-color: #3f5353c5;
+}
+
+.logo img {
+    padding: 15px 0;
+    width: 200px;
+    height: auto;
+}
+
+.cabecalho h1 {
+    font-family: 'poppins';
+    padding: 19px 488px;
+}
+
+/* INFORMAÇÃO */
+.informacao {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #3f535379;
+}
+
+.informacao h1, p {
+    font-family: 'poppins';
+}
+
+/* ACESSO */
+.acesso {
+    height: 378px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.acesso h1 {
+    font-family: 'poppins'; 
+}
+
+.acesso p {
+    font-family: 'poppins';
+    font-size: 20px;
+    padding-top: 1%;
+}
+
+#cardNumber {
+    width: 216px;
+    height: 26px;
+    border-radius: 10px;
+    padding-left: 8px;
+    font-family: 'poppins';
+    font-size: 15px;
+    margin-top: 1%;
+}
+
+button {
+    font-family: 'poppins';
+    height: 29px;
+    width: 122px;
+    border-radius: 10px;
+}
